@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		883071691568C1C20077E760 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883071681568C1C20077E760 /* UIKit.framework */; };
+		8830716B1568C1C20077E760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8830716A1568C1C20077E760 /* Foundation.framework */; };
+		8830716D1568C1C20077E760 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8830716C1568C1C20077E760 /* CoreGraphics.framework */; };
+		883071731568C1C20077E760 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 883071711568C1C20077E760 /* InfoPlist.strings */; };
+		883071751568C1C20077E760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071741568C1C20077E760 /* main.m */; };
+		883071791568C1C20077E760 /* EasyDiscountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */; };
+		8830717C1568C1C20077E760 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */; };
+		8830717F1568C1C20077E760 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */; };
+		883071821568C1C20077E760 /* EasyDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071811568C1C20077E760 /* EasyDiscountViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		883071641568C1C20077E760 /* Easy Discount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Discount.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883071681568C1C20077E760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8830716A1568C1C20077E760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8830716C1568C1C20077E760 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		883071701568C1C20077E760 /* Easy Discount-Info.plist */ = {isa = PBXFileReference; path = "Easy Discount-Info.plist"; sourceTree = "<group>"; };
+		883071721568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		883071741568C1C20077E760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883071761568C1C20077E760 /* Easy Discount-Prefix.pch */ = {isa = PBXFileReference; path = "Easy Discount-Prefix.pch"; sourceTree = "<group>"; };
+		883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */ = {isa = PBXFileReference; path = EasyDiscountAppDelegate.h; sourceTree = "<group>"; };
+		883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDiscountAppDelegate.m; sourceTree = "<group>"; };
+		8830717B1568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8830717E1568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		883071801568C1C20077E760 /* EasyDiscountViewController.h */ = {isa = PBXFileReference; path = EasyDiscountViewController.h; sourceTree = "<group>"; };
+		883071811568C1C20077E760 /* EasyDiscountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDiscountViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883071611568C1C20077E760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883071691568C1C20077E760 /* UIKit.framework in Frameworks */,
+				8830716B1568C1C20077E760 /* Foundation.framework in Frameworks */,
+				8830716D1568C1C20077E760 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883071591568C1C20077E760 = {
+			isa = PBXGroup;
+			children = (
+				8830716E1568C1C20077E760 /* Easy Discount */,
+				883071671568C1C20077E760 /* Frameworks */,
+				883071651568C1C20077E760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		883071651568C1C20077E760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883071641568C1C20077E760 /* Easy Discount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883071671568C1C20077E760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883071681568C1C20077E760 /* UIKit.framework */,
+				8830716A1568C1C20077E760 /* Foundation.framework */,
+				8830716C1568C1C20077E760 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8830716E1568C1C20077E760 /* Easy Discount */ = {
+			isa = PBXGroup;
+			children = (
+				883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */,
+				883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */,
+				8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */,
+				8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */,
+				883071801568C1C20077E760 /* EasyDiscountViewController.h */,
+				883071811568C1C20077E760 /* EasyDiscountViewController.m */,
+				8830716F1568C1C20077E760 /* Supporting Files */,
+			);
+			path = "Easy Discount";
+			sourceTree = "<group>";
+		};
+		8830716F1568C1C20077E760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				883071701568C1C20077E760 /* Easy Discount-Info.plist */,
+				883071711568C1C20077E760 /* InfoPlist.strings */,
+				883071741568C1C20077E760 /* main.m */,
+				883071761568C1C20077E760 /* Easy Discount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883071631568C1C20077E760 /* Easy Discount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883071851568C1C20077E760 /* Build configuration list for PBXNativeTarget "Easy Discount" */;
+			buildPhases = (
+				883071601568C1C20077E760 /* Sources */,
+				883071611568C1C20077E760 /* Frameworks */,
+				883071621568C1C20077E760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Discount";
+			productName = "Easy Discount";
+			productReference = 883071641568C1C20077E760 /* Easy Discount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8830715B1568C1C20077E760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EasyDiscount;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8830715E1568C1C20077E760 /* Build configuration list for PBXProject "Easy Discount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 883071591568C1C20077E760;
+			productRefGroup = 883071651568C1C20077E760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883071631568C1C20077E760 /* Easy Discount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883071621568C1C20077E760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883071731568C1C20077E760 /* InfoPlist.strings in Resources */,
+				8830717C1568C1C20077E760 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8830717F1568C1C20077E760 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883071601568C1C20077E760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883071751568C1C20077E760 /* main.m in Sources */,
+				883071791568C1C20077E760 /* EasyDiscountAppDelegate.m in Sources */,
+				883071821568C1C20077E760 /* EasyDiscountViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		883071711568C1C20077E760 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883071721568C1C20077E760 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8830717B1568C1C20077E760 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8830717E1568C1C20077E760 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883071831568C1C20077E760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883071841568C1C20077E760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883071861568C1C20077E760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
+				INFOPLIST_FILE = "Easy Discount/Easy Discount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		883071871568C1C20077E760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
+				INFOPLIST_FILE = "Easy Discount/Easy Discount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8830715E1568C1C20077E760 /* Build configuration list for PBXProject "Easy Discount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883071831568C1C20077E760 /* Debug */,
+				883071841568C1C20077E760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883071851568C1C20077E760 /* Build configuration list for PBXNativeTarget "Easy Discount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883071861568C1C20077E760 /* Debug */,
+				883071871568C1C20077E760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8830715B1568C1C20077E760 /* Project object */;
+}
