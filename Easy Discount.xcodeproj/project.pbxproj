@@ -16,6 +16,31 @@
 		8830717C1568C1C20077E760 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */; };
 		8830717F1568C1C20077E760 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */; };
 		883071821568C1C20077E760 /* EasyDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071811568C1C20077E760 /* EasyDiscountViewController.m */; };
+		883071911568C6050077E760 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883071901568C6050077E760 /* QuartzCore.framework */; };
+		883071951568CC500077E760 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071941568CC500077E760 /* UIColor+Extension.m */; };
+		8830719D1568F0A10077E760 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8830719C1568F0A10077E760 /* AboutViewController.m */; };
+		88EDD5B3156CA2E800EA41B6 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B2156CA2E800EA41B6 /* icon57x57.png */; };
+		88EDD5B5156CA2ED00EA41B6 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */; };
+		88EDD5B8156CA8D700EA41B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071741568C1C20077E760 /* main.m */; };
+		88EDD5B9156CA8D700EA41B6 /* EasyDiscountAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */; };
+		88EDD5BA156CA8D700EA41B6 /* EasyDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071811568C1C20077E760 /* EasyDiscountViewController.m */; };
+		88EDD5BB156CA8D700EA41B6 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071941568CC500077E760 /* UIColor+Extension.m */; };
+		88EDD5BC156CA8D700EA41B6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8830719C1568F0A10077E760 /* AboutViewController.m */; };
+		88EDD5BE156CA8D700EA41B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883071901568C6050077E760 /* QuartzCore.framework */; };
+		88EDD5BF156CA8D700EA41B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883071681568C1C20077E760 /* UIKit.framework */; };
+		88EDD5C0156CA8D700EA41B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8830716A1568C1C20077E760 /* Foundation.framework */; };
+		88EDD5C1156CA8D700EA41B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8830716C1568C1C20077E760 /* CoreGraphics.framework */; };
+		88EDD5C3156CA8D700EA41B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 883071711568C1C20077E760 /* InfoPlist.strings */; };
+		88EDD5C4156CA8D700EA41B6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */; };
+		88EDD5C5156CA8D700EA41B6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */; };
+		88EDD5C6156CA8D700EA41B6 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B2156CA2E800EA41B6 /* icon57x57.png */; };
+		88EDD5C7156CA8D700EA41B6 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */; };
+		88EDD5CF156CAEB300EA41B6 /* icon free 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5CE156CAEB300EA41B6 /* icon free 57x57.png */; };
+		88EDD5D1156CAEB800EA41B6 /* icon free 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D0156CAEB800EA41B6 /* icon free 114x114.png */; };
+		88EDD5D3156CAED300EA41B6 /* icon free 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D2156CAED300EA41B6 /* icon free 72x72.png */; };
+		88EDD5D5156CAED800EA41B6 /* icon free 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D4156CAED800EA41B6 /* icon free 144x144.png */; };
+		88EDD5D7156CAEE800EA41B6 /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D6156CAEE800EA41B6 /* icon72x72.png */; };
+		88EDD5D9156CAEEB00EA41B6 /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D8156CAEEB00EA41B6 /* icon144x144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +48,31 @@
 		883071681568C1C20077E760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8830716A1568C1C20077E760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8830716C1568C1C20077E760 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		883071701568C1C20077E760 /* Easy Discount-Info.plist */ = {isa = PBXFileReference; path = "Easy Discount-Info.plist"; sourceTree = "<group>"; };
+		883071701568C1C20077E760 /* Easy Discount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easy Discount-Info.plist"; sourceTree = "<group>"; };
 		883071721568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		883071741568C1C20077E760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		883071761568C1C20077E760 /* Easy Discount-Prefix.pch */ = {isa = PBXFileReference; path = "Easy Discount-Prefix.pch"; sourceTree = "<group>"; };
-		883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */ = {isa = PBXFileReference; path = EasyDiscountAppDelegate.h; sourceTree = "<group>"; };
+		883071761568C1C20077E760 /* Easy Discount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Easy Discount-Prefix.pch"; sourceTree = "<group>"; };
+		883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyDiscountAppDelegate.h; sourceTree = "<group>"; };
 		883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDiscountAppDelegate.m; sourceTree = "<group>"; };
 		8830717B1568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8830717E1568C1C20077E760 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		883071801568C1C20077E760 /* EasyDiscountViewController.h */ = {isa = PBXFileReference; path = EasyDiscountViewController.h; sourceTree = "<group>"; };
+		883071801568C1C20077E760 /* EasyDiscountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyDiscountViewController.h; sourceTree = "<group>"; };
 		883071811568C1C20077E760 /* EasyDiscountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyDiscountViewController.m; sourceTree = "<group>"; };
+		883071901568C6050077E760 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		883071931568CC500077E760 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "Easy Discount/UIColor+Extension.h"; sourceTree = "<group>"; };
+		883071941568CC500077E760 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "Easy Discount/UIColor+Extension.m"; sourceTree = "<group>"; };
+		8830719B1568F0A10077E760 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8830719C1568F0A10077E760 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		88EDD5B2156CA2E800EA41B6 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
+		88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
+		88EDD5CB156CA8D700EA41B6 /* Easy Discount copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Discount copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EDD5CD156CA8D800EA41B6 /* Easy Discount Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Easy Discount Pro-Info.plist"; path = "/Users/salvadorguerrero/Dropbox/Cachora Software/Easy Discount/Easy Discount Pro-Info.plist"; sourceTree = "<absolute>"; };
+		88EDD5CE156CAEB300EA41B6 /* icon free 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon free 57x57.png"; sourceTree = "<group>"; };
+		88EDD5D0156CAEB800EA41B6 /* icon free 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon free 114x114.png"; sourceTree = "<group>"; };
+		88EDD5D2156CAED300EA41B6 /* icon free 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon free 72x72.png"; sourceTree = "<group>"; };
+		88EDD5D4156CAED800EA41B6 /* icon free 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon free 144x144.png"; sourceTree = "<group>"; };
+		88EDD5D6156CAEE800EA41B6 /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72x72.png; sourceTree = "<group>"; };
+		88EDD5D8156CAEEB00EA41B6 /* icon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144x144.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +80,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883071911568C6050077E760 /* QuartzCore.framework in Frameworks */,
 				883071691568C1C20077E760 /* UIKit.framework in Frameworks */,
 				8830716B1568C1C20077E760 /* Foundation.framework in Frameworks */,
 				8830716D1568C1C20077E760 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDD5BD156CA8D700EA41B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDD5BE156CA8D700EA41B6 /* QuartzCore.framework in Frameworks */,
+				88EDD5BF156CA8D700EA41B6 /* UIKit.framework in Frameworks */,
+				88EDD5C0156CA8D700EA41B6 /* Foundation.framework in Frameworks */,
+				88EDD5C1156CA8D700EA41B6 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +104,8 @@
 		883071591568C1C20077E760 = {
 			isa = PBXGroup;
 			children = (
+				883071961568D7550077E760 /* Images */,
+				883071921568CC2A0077E760 /* Extensions */,
 				8830716E1568C1C20077E760 /* Easy Discount */,
 				883071671568C1C20077E760 /* Frameworks */,
 				883071651568C1C20077E760 /* Products */,
@@ -62,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				883071641568C1C20077E760 /* Easy Discount.app */,
+				88EDD5CB156CA8D700EA41B6 /* Easy Discount copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +124,7 @@
 		883071671568C1C20077E760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				883071901568C6050077E760 /* QuartzCore.framework */,
 				883071681568C1C20077E760 /* UIKit.framework */,
 				8830716A1568C1C20077E760 /* Foundation.framework */,
 				8830716C1568C1C20077E760 /* CoreGraphics.framework */,
@@ -82,6 +138,8 @@
 				883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */,
 				883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */,
 				8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */,
+				8830719B1568F0A10077E760 /* AboutViewController.h */,
+				8830719C1568F0A10077E760 /* AboutViewController.m */,
 				8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */,
 				883071801568C1C20077E760 /* EasyDiscountViewController.h */,
 				883071811568C1C20077E760 /* EasyDiscountViewController.m */,
@@ -94,11 +152,36 @@
 			isa = PBXGroup;
 			children = (
 				883071701568C1C20077E760 /* Easy Discount-Info.plist */,
+				88EDD5CD156CA8D800EA41B6 /* Easy Discount Pro-Info.plist */,
 				883071711568C1C20077E760 /* InfoPlist.strings */,
 				883071741568C1C20077E760 /* main.m */,
 				883071761568C1C20077E760 /* Easy Discount-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		883071921568CC2A0077E760 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				883071931568CC500077E760 /* UIColor+Extension.h */,
+				883071941568CC500077E760 /* UIColor+Extension.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		883071961568D7550077E760 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88EDD5D8156CAEEB00EA41B6 /* icon144x144.png */,
+				88EDD5D6156CAEE800EA41B6 /* icon72x72.png */,
+				88EDD5D4156CAED800EA41B6 /* icon free 144x144.png */,
+				88EDD5D2156CAED300EA41B6 /* icon free 72x72.png */,
+				88EDD5D0156CAEB800EA41B6 /* icon free 114x114.png */,
+				88EDD5CE156CAEB300EA41B6 /* icon free 57x57.png */,
+				88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */,
+				88EDD5B2156CA2E800EA41B6 /* icon57x57.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +202,23 @@
 			name = "Easy Discount";
 			productName = "Easy Discount";
 			productReference = 883071641568C1C20077E760 /* Easy Discount.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EDD5B6156CA8D700EA41B6 /* Easy Discount Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EDD5C8156CA8D700EA41B6 /* Build configuration list for PBXNativeTarget "Easy Discount Pro" */;
+			buildPhases = (
+				88EDD5B7156CA8D700EA41B6 /* Sources */,
+				88EDD5BD156CA8D700EA41B6 /* Frameworks */,
+				88EDD5C2156CA8D700EA41B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Discount Pro";
+			productName = "Easy Discount";
+			productReference = 88EDD5CB156CA8D700EA41B6 /* Easy Discount copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				883071631568C1C20077E760 /* Easy Discount */,
+				88EDD5B6156CA8D700EA41B6 /* Easy Discount Pro */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +256,26 @@
 				883071731568C1C20077E760 /* InfoPlist.strings in Resources */,
 				8830717C1568C1C20077E760 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8830717F1568C1C20077E760 /* MainStoryboard_iPad.storyboard in Resources */,
+				88EDD5B3156CA2E800EA41B6 /* icon57x57.png in Resources */,
+				88EDD5B5156CA2ED00EA41B6 /* icon114x114.png in Resources */,
+				88EDD5CF156CAEB300EA41B6 /* icon free 57x57.png in Resources */,
+				88EDD5D1156CAEB800EA41B6 /* icon free 114x114.png in Resources */,
+				88EDD5D3156CAED300EA41B6 /* icon free 72x72.png in Resources */,
+				88EDD5D5156CAED800EA41B6 /* icon free 144x144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDD5C2156CA8D700EA41B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDD5C3156CA8D700EA41B6 /* InfoPlist.strings in Resources */,
+				88EDD5C4156CA8D700EA41B6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				88EDD5C5156CA8D700EA41B6 /* MainStoryboard_iPad.storyboard in Resources */,
+				88EDD5C6156CA8D700EA41B6 /* icon57x57.png in Resources */,
+				88EDD5C7156CA8D700EA41B6 /* icon114x114.png in Resources */,
+				88EDD5D7156CAEE800EA41B6 /* icon72x72.png in Resources */,
+				88EDD5D9156CAEEB00EA41B6 /* icon144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +289,20 @@
 				883071751568C1C20077E760 /* main.m in Sources */,
 				883071791568C1C20077E760 /* EasyDiscountAppDelegate.m in Sources */,
 				883071821568C1C20077E760 /* EasyDiscountViewController.m in Sources */,
+				883071951568CC500077E760 /* UIColor+Extension.m in Sources */,
+				8830719D1568F0A10077E760 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EDD5B7156CA8D700EA41B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDD5B8156CA8D700EA41B6 /* main.m in Sources */,
+				88EDD5B9156CA8D700EA41B6 /* EasyDiscountAppDelegate.m in Sources */,
+				88EDD5BA156CA8D700EA41B6 /* EasyDiscountViewController.m in Sources */,
+				88EDD5BB156CA8D700EA41B6 /* UIColor+Extension.m in Sources */,
+				88EDD5BC156CA8D700EA41B6 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_NAME = "";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -213,8 +349,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
+					"Debug=1",
+					"vPRO=${vPRO}",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -224,6 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				vPRO = 1;
 			};
 			name = Debug;
 		};
@@ -231,11 +368,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_NAME = "";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "vPRO=${vPRO}";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -245,6 +384,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				vPRO = 1;
 			};
 			name = Release;
 		};
@@ -254,8 +394,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
 				INFOPLIST_FILE = "Easy Discount/Easy Discount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
+				vPRO = 0;
 			};
 			name = Debug;
 		};
@@ -265,8 +408,39 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
 				INFOPLIST_FILE = "Easy Discount/Easy Discount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
+				vPRO = 0;
+			};
+			name = Release;
+		};
+		88EDD5C9156CA8D700EA41B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
+				INFOPLIST_FILE = "Easy Discount Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Easy Discount copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+				uPRO = true;
+			};
+			name = Debug;
+		};
+		88EDD5CA156CA8D700EA41B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Discount/Easy Discount-Prefix.pch";
+				INFOPLIST_FILE = "Easy Discount Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "Easy Discount copy";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+				uPRO = true;
 			};
 			name = Release;
 		};
@@ -289,6 +463,16 @@
 				883071871568C1C20077E760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EDD5C8156CA8D700EA41B6 /* Build configuration list for PBXNativeTarget "Easy Discount Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EDD5C9156CA8D700EA41B6 /* Debug */,
+				88EDD5CA156CA8D700EA41B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
