@@ -9,6 +9,7 @@
 #import "EasyDiscountViewController.h"
 #import "QuartzCore/QuartzCore.h"
 #import "UIColor+Extension.h"
+#import "MathHelper.h"
 
 @interface EasyDiscountViewController () <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *priceTextField;
@@ -106,7 +107,12 @@
             double predefinedPercent = [title substringToIndex:title.length-1].doubleValue;
             discount = predefinedPercent;
         }
-        self.discountTextField.text = [NSString stringWithFormat:@"%.2f", discount];
+        
+        if([MathHelper isDecimal:discount]){
+            self.discountTextField.text = [NSString stringWithFormat:@"%.2f", discount];
+        } else {
+            self.discountTextField.text = [NSString stringWithFormat:@"%d", (int)discount];
+        }
         [self calculate];
     }
 }
@@ -117,7 +123,11 @@
     double decimalDiscount = discount/100.0;
     double toSubstract = price * decimalDiscount;
     double total = price - toSubstract;
-    self.totalTextField.text = [NSString stringWithFormat:@"%.2f",total];
+    if([MathHelper isDecimal:total]){
+        self.totalTextField.text = [NSString stringWithFormat:@"%.2f",total];
+    } else {
+        self.totalTextField.text = [NSString stringWithFormat:@"%d",(int)total];
+    }
 }
 
 
