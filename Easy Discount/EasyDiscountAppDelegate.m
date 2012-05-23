@@ -8,13 +8,22 @@
 
 #import "EasyDiscountAppDelegate.h"
 
+@interface EasyDiscountAppDelegate() <UIAccelerometerDelegate>
+@property (nonatomic, assign) BOOL histeresisExcited;
+@property (nonatomic, strong) UIAcceleration* lastAcceleration;
+
+@end
+
 @implementation EasyDiscountAppDelegate
 
 @synthesize window = _window;
+@synthesize lastAcceleration = _lastAcceleration;
+@synthesize histeresisExcited = _histeresisExcited;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [UIAccelerometer sharedAccelerometer].delegate = self;
     return YES;
 }
 							
@@ -43,6 +52,39 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -
+#pragma mark UIAccelerometerDelegate
+
+static BOOL L0AccelerationIsShaking(UIAcceleration* last, UIAcceleration* current, double threshold) {
+    double
+    deltaX = fabs(last.x - current.x),
+    deltaY = fabs(last.y - current.y),
+    deltaZ = fabs(last.z - current.z);
+    
+    return
+    (deltaX > threshold && deltaY > threshold) ||
+    (deltaX > threshold && deltaZ > threshold) ||
+    (deltaY > threshold && deltaZ > threshold);
+}
+
+- (void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    
+    if (self.lastAcceleration) {
+        if (!self.histeresisExcited && L0AccelerationIsShaking(self.lastAcceleration, acceleration, 0.7)) {
+            self.histeresisExcited = YES;
+            
+            /* SHAKE DETECTED. DO HERE WHAT YOU WANT. */
+            
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"iPhoneShaked" object:nil];
+            
+        } else if (self.histeresisExcited && !L0AccelerationIsShaking(self.lastAcceleration, acceleration, 0.2)) {
+            self.histeresisExcited = NO;
+        }
+    }
+    
+    self.lastAcceleration = acceleration;
 }
 
 @end

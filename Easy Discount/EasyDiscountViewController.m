@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *discountTextField;
 @property (weak, nonatomic) IBOutlet UITextField *totalTextField;
 -(void)calculate;
+-(void)iPhoneShaked:(NSNotification *)notification;
 @end
 
 @implementation EasyDiscountViewController
@@ -44,7 +45,19 @@
     
     self.discountTextField.delegate = self;
     self.priceTextField.delegate = self;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(iPhoneShaked:) name:@"iPhoneShaked" object:nil];
 }
+
+-(void)iPhoneShaked:(NSNotification *)notification{
+#if vPRO
+    self.priceTextField.text = @"";
+    self.discountTextField.text = @"";
+    self.totalTextField.text = @"";
+#endif
+}
+
+
 
 - (void)viewDidUnload
 {
