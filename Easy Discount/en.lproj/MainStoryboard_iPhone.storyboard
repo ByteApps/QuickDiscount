@@ -6,11 +6,19 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="Yjg-i5-OPL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yf2-hX-cUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="xGi-sI-4NQ" customClass="PageViewController" sceneMemberID="viewController"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="100"/>
+        </scene>
         <!--Easy Discount View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="EasyDiscountViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="discount view" id="2" customClass="EasyDiscountViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -379,7 +387,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-109" y="84"/>
+            <point key="canvasLocation" x="-84" y="84"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="ZXU-av-c8Z">
@@ -477,6 +485,9 @@
                 <relationship kind="outlet" name="priceTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="totalTextField" candidateClass="UITextField"/>
             </relationships>
+        </class>
+        <class className="PageViewController" superclassName="UIPageViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PageViewController.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

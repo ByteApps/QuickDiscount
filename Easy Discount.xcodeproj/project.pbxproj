@@ -19,6 +19,10 @@
 		883071911568C6050077E760 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883071901568C6050077E760 /* QuartzCore.framework */; };
 		883071951568CC500077E760 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071941568CC500077E760 /* UIColor+Extension.m */; };
 		8830719D1568F0A10077E760 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8830719C1568F0A10077E760 /* AboutViewController.m */; };
+		8850CE28156CB7B800C33354 /* MathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850CE27156CB7B800C33354 /* MathHelper.m */; };
+		8850CE29156CB7B800C33354 /* MathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850CE27156CB7B800C33354 /* MathHelper.m */; };
+		8850CE31156CC69D00C33354 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850CE30156CC69D00C33354 /* PageViewController.m */; };
+		8850CE32156CC69D00C33354 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8850CE30156CC69D00C33354 /* PageViewController.m */; };
 		88EDD5B3156CA2E800EA41B6 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B2156CA2E800EA41B6 /* icon57x57.png */; };
 		88EDD5B5156CA2ED00EA41B6 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */; };
 		88EDD5B8156CA8D700EA41B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883071741568C1C20077E760 /* main.m */; };
@@ -37,8 +41,6 @@
 		88EDD5C7156CA8D700EA41B6 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */; };
 		88EDD5CF156CAEB300EA41B6 /* icon free 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5CE156CAEB300EA41B6 /* icon free 57x57.png */; };
 		88EDD5D1156CAEB800EA41B6 /* icon free 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D0156CAEB800EA41B6 /* icon free 114x114.png */; };
-		88EDD5D3156CAED300EA41B6 /* icon free 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D2156CAED300EA41B6 /* icon free 72x72.png */; };
-		88EDD5D5156CAED800EA41B6 /* icon free 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D4156CAED800EA41B6 /* icon free 144x144.png */; };
 		88EDD5D7156CAEE800EA41B6 /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D6156CAEE800EA41B6 /* icon72x72.png */; };
 		88EDD5D9156CAEEB00EA41B6 /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EDD5D8156CAEEB00EA41B6 /* icon144x144.png */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,10 @@
 		883071941568CC500077E760 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "Easy Discount/UIColor+Extension.m"; sourceTree = "<group>"; };
 		8830719B1568F0A10077E760 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		8830719C1568F0A10077E760 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		8850CE26156CB7B800C33354 /* MathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathHelper.h; path = "Easy Discount/MathHelper.h"; sourceTree = "<group>"; };
+		8850CE27156CB7B800C33354 /* MathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MathHelper.m; path = "Easy Discount/MathHelper.m"; sourceTree = "<group>"; };
+		8850CE2F156CC69D00C33354 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		8850CE30156CC69D00C33354 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		88EDD5B2156CA2E800EA41B6 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
 		88EDD5B4156CA2ED00EA41B6 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
 		88EDD5CB156CA8D700EA41B6 /* Easy Discount copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Discount copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +144,8 @@
 				883071771568C1C20077E760 /* EasyDiscountAppDelegate.h */,
 				883071781568C1C20077E760 /* EasyDiscountAppDelegate.m */,
 				8830717A1568C1C20077E760 /* MainStoryboard_iPhone.storyboard */,
+				8850CE2F156CC69D00C33354 /* PageViewController.h */,
+				8850CE30156CC69D00C33354 /* PageViewController.m */,
 				8830719B1568F0A10077E760 /* AboutViewController.h */,
 				8830719C1568F0A10077E760 /* AboutViewController.m */,
 				8830717D1568C1C20077E760 /* MainStoryboard_iPad.storyboard */,
@@ -165,6 +173,8 @@
 			children = (
 				883071931568CC500077E760 /* UIColor+Extension.h */,
 				883071941568CC500077E760 /* UIColor+Extension.m */,
+				8850CE26156CB7B800C33354 /* MathHelper.h */,
+				8850CE27156CB7B800C33354 /* MathHelper.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -260,8 +270,6 @@
 				88EDD5B5156CA2ED00EA41B6 /* icon114x114.png in Resources */,
 				88EDD5CF156CAEB300EA41B6 /* icon free 57x57.png in Resources */,
 				88EDD5D1156CAEB800EA41B6 /* icon free 114x114.png in Resources */,
-				88EDD5D3156CAED300EA41B6 /* icon free 72x72.png in Resources */,
-				88EDD5D5156CAED800EA41B6 /* icon free 144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,8 @@
 				883071821568C1C20077E760 /* EasyDiscountViewController.m in Sources */,
 				883071951568CC500077E760 /* UIColor+Extension.m in Sources */,
 				8830719D1568F0A10077E760 /* AboutViewController.m in Sources */,
+				8850CE28156CB7B800C33354 /* MathHelper.m in Sources */,
+				8850CE31156CC69D00C33354 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +313,8 @@
 				88EDD5BA156CA8D700EA41B6 /* EasyDiscountViewController.m in Sources */,
 				88EDD5BB156CA8D700EA41B6 /* UIColor+Extension.m in Sources */,
 				88EDD5BC156CA8D700EA41B6 /* AboutViewController.m in Sources */,
+				8850CE29156CB7B800C33354 /* MathHelper.m in Sources */,
+				8850CE32156CC69D00C33354 /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +369,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				vPRO = 1;
@@ -371,7 +383,7 @@
 				APP_NAME = "";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Salvador Guerrero";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = "vPRO=${vPRO}";
@@ -379,8 +391,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5340611E-BE93-4487-B5C5-7C582ED651A6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
